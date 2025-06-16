@@ -334,7 +334,7 @@
             async function callGemini(prompt) {
                 let chatHistory = [{ role: "user", parts: [{ text: prompt }] }];
                 const payload = { contents: chatHistory };
-                const apiKey = "";
+                const apiKey = "AIzaSyDQkcxWnEaNE-a78zwTnQ8E0TUpjoRjxXw";
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
                 try {
@@ -366,4 +366,3 @@
     </script>
 </body>
 </html>
-
